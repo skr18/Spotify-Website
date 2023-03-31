@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skr $ Music Club</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="nav">
+        <ul>
+            <li id="logo"><img src="/logo.png">spotify</li>
+            <li>Home</li>
+            <li>Contact Us</li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <div class="songList">
+            <h1>Best of Skr</h1>
+            <div class="song-container">
+                <div class="songItem">
+                    <img src="/covers/1.jpg" alt="">
+                    <h3>Let Me Love You</h3>
+                    <span class="songListPlay"><span>05.34</span><i id="1" class="fas songItemplay fa-play-circle"></i></span>
+                </div>
+                <div class="songItem">
+                    <img src="/covers/6.jpg" alt="">
+                    <h3>Take Me Down </h3>
+                    <span class="songListPlay"><span>04.40</span><i id="2" class="fas songItemplay fa-play-circle"></i></span>
+                </div>
+                <div class="songItem">
+                    <img src="/covers/5.jpg" alt="">
+                    <h3>See You Now</h3>
+                    <span class="songListPlay"><span>05.20</span><i id="3" class="fas songItemplay fa-play-circle"></i></span>
+                </div>
+                <div class="songItem">
+                    <img src="/covers/7.jpg" alt="">
+                    <h3>Migenta</h3>
+                    <span class="songListPlay"><span>02.25</span><i id="4" class="fas songItemplay fa-play-circle"></i></span>
+                </div>
+                <div class="songItem">
+                    <img src="/covers/2.jpg" alt="">
+                    <h3>Baby Girl</h3>
+                    <span class="songListPlay"><span>01.15</span><i id="5" class="fas songItemplay fa-play-circle"></i></span>
+                </div>
+                <div class="songItem">
+                    <img src="/covers/8.jpg" alt="">
+                    <h3>SpiderMan Pc</h3>
+                    <span class="songListPlay"><span>03.45</span><i id="6" class="fas songItemplay fa-play-circle"></i></span>
+                </div>
+                <div class="songItem">
+                    <img src="/covers/9.jpg" alt="">
+                    <h3>God Of War</h3>
+                    <span class="songListPlay"><span>04.30</span><i id="7" class="fas songItemplay fa-play-circle"></i></span>
+                </div>
+            </div>
+        </div>
+        <div class="songBanner"></div>
+    </div>
+
+    <div class="buttom">
+        <input type="range" name="range" id="progessBar" min="0" value="0" max="100">
+        <div class="icons">
+            <i class="fas fa-3x fa-step-backward" id="previous"></i>
+            <i class="fas fa-3x fa-play-circle" id="masterplay"></i>
+            <i class="fas fa-3x fa-step-forward" id="next"></i>
+        </div>
+        <div class="songInfo">
+            <img src="/playing.gif" id="gif">Let Me Love You - Arijit Singh
+        </div>
+    </div>
+    <script src="/script.js"></script>
+    <script src="https://kit.fontawesome.com/09ddac3221.js" crossorigin="anonymous"></script>
+</body>
+</html>
